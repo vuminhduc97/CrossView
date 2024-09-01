@@ -1,6 +1,37 @@
 # CrossView
 Minimal Cross-Platform Window Manager
 
+
+
+
+
+
+
+Create a build directory:
+```cpp
+
+mkdir build
+cd build
+
+```
+Generate build files using CMake:
+```cpp
+
+cmake ..
+
+```
+Build the project:
+```cpp
+
+cmake --build .
+
+```
+
+
+Usage
+Example
+
+
 ```cpp
 #include "CrossView.h"
 
