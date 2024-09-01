@@ -1,27 +1,59 @@
 # CrossView
 Minimal Cross-Platform Window Manager
 
+CrossView is a cross-platform library designed for creating and managing windows across multiple platforms. It abstracts platform-specific window management code into a unified interface, allowing you to create and manipulate windows in a platform-agnostic way. 
 
+## Features
 
+- Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a noop mode.
+- Window creation and management.
+- Platform-specific implementation details hidden behind a common interface.
+
+## Supported Platforms
+
+- **Windows** (Win32)
+- **macOS** (Cocoa)
+- **Linux** (XCB or XLib)
+- **Android**
+- **iOS** (UIKit)
+- **WebAssembly** (Emscripten)
+- **PlayStation 5** (PS5)
+- **Xbox**
+- **No-op** (Headless mode)
+
+## Installation
+
+### Prerequisites
+
+- C++20 or later
+- CMake 3.10 or later
+
+### Building
+
+1. Clone the repository:
+```sh
+   git clone https://github.com/yourusername/CrossView.git
+   cd CrossView
+```
 
 
 
 
 Create a build directory:
-```cpp
+```sh
 
 mkdir build
 cd build
 
 ```
 Generate build files using CMake:
-```cpp
+```sh
 
 cmake ..
 
 ```
 Build the project:
-```cpp
+```sh
 
 cmake --build .
 
