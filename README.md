@@ -25,13 +25,21 @@ void shutdown()
 The platform-specific implementation files are organized into separate source files. Each implementation file contains the initialization, window creation, and shutdown code for a specific platform.
 
 -Windows: CrossViewWin32.cpp and CrossViewWin32.h
+
 -macOS: CrossViewMac.cpp and CrossViewMac.h
+
 -Linux: CrossViewLinux.cpp and CrossViewLinux.h
+
 -Android: CrossViewAndroid.cpp and CrossViewAndroid.h
+
 -iOS: CrossViewIOS.cpp and CrossViewIOS.h
+
 -WebAssembly: CrossViewWebAssembly.cpp and CrossViewWebAssembly.h
+
 -PlayStation 5: CrossViewPS5.cpp and CrossViewPS5.h
+
 -Xbox: CrossViewXbox.cpp and CrossViewXbox.h
+
 -No-op mode: CrossViewNoop.cpp and CrossViewNoop.h
 
 ### License
