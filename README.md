@@ -39,20 +39,20 @@ CrossView is a cross-platform library designed for creating and managing windows
 
 
 
-Create a build directory:
+### Create a build directory:
 ```sh
 
 mkdir build
 cd build
 
 ```
-Generate build files using CMake:
+### Generate build files using CMake:
 ```sh
 
 cmake ..
 
 ```
-Build the project:
+### Build the project:
 ```sh
 
 cmake --build .
@@ -60,10 +60,8 @@ cmake --build .
 ```
 
 
-Usage
-Example
-
-
+### Usage
+##### Example
 ```cpp
 #include "CrossView.h"
 
@@ -76,13 +74,18 @@ int main() {
     }
     return 0;
 }
-API Reference
+```
+### API Reference
+
+```cpp
 CrossViewer::CrossView
 static std::unique_ptr<CrossView> createCrossView()
 bool init()
 bool createWindow(const wchar_t* title, int width, int height)
 void shutdown()
+
 ```
+
 
 ### Platform-specific Implementations
 The platform-specific implementation files are organized into separate source files. Each implementation file contains the initialization, window creation, and shutdown code for a specific platform.
