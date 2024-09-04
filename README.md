@@ -22,7 +22,7 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 
 ## Tested
 
-- Tested in Windows 10 & 11 With Console headless and WindowsDesktopApplication + headless mode.
+- Tested in Windows 10/11 With Console headless and WindowsDesktopApplication + headless mode.
 
 <img align="left" src="image/1.png" width="200px"/>
 
