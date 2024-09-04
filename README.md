@@ -5,9 +5,17 @@ CrossView is a cross-platform library designed for creating and managing windows
 
 ## Features
 
-- Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a noop mode.
-- Window creation and management.
+- Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a No-op/Console mode.
+- Window Creation and Management.
 - Platform-specific implementation details hidden behind a common interface.
+- Namespace 'CrossViewer' Prevents Global Code Leaks
+- C++20 and Factory Pattern Design
+- Platform-Specific Factories
+- Memory Management and Error Handling
+You’re using std::unique_ptr to manage the CrossView object, which is a safe and efficient choice.
+
+- Split-Screen and VR Features
+In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure that these features are appropriately implemented in the platform-specific classes where applicable.
 
 ## Supported Platforms
 
@@ -114,21 +122,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### Contributing
 Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 
-
-
-
-
-# **MORE Details!**
-
-### 1. Factory Class Design
-CrossViewFactory Class: The create() function is defined as a private member in the CrossViewFactory class. It seems this function is intended to be overridden by derived classes, such as platform-specific factories. However, you don't need the private create() function in CrossViewFactory. The factory method should be pure virtual and defined in derived classes.
-### 2. Platform-Specific Factories
-Ensure each platform-specific factory class, such as CrossViewWin32Factory, CrossViewMacFactory, etc., inherits from CrossViewFactory and implements the create() method correctly.
-### 3. Namespace and Include Guards
-The code effectively uses namespaces, which is good for preventing name clashes. Ensure that all header files have #pragma once at the top to prevent multiple inclusions.
-### 4. Memory Management and Error Handling
-You’re using std::unique_ptr to manage the CrossView object, which is a safe and efficient choice. However, it might be a good idea to include more detailed error handling and logging, especially when dealing with platform-specific implementations that may fail.
-### 5. Split-Screen and VR Features
-In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure that these features are appropriately implemented in the platform-specific classes where applicable.
-### 6. Cross-Platform Compatibility
-Ensure that the necessary platform-specific libraries and frameworks are correctly linked during the build process for each platform.
