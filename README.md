@@ -42,7 +42,7 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 
 1. Clone the repository:
 ```sh
-   git clone https://github.com/yourusername/CrossView.git
+   git clone https://github.com/Autodidac/CrossView.git
    cd CrossView
 ```
 
