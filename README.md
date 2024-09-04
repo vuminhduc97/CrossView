@@ -64,7 +64,6 @@ Run cmake to generate the build files, then compile:
 ### Build the project:
 Basic Build:
 ```sh
-Copy code
 mkdir build
 cd build
 cmake ..
@@ -74,7 +73,6 @@ Enable Headless Mode:
 
 To build with headless mode enabled, pass the option when running cmake:
 ```sh
-Copy code
 cmake .. -DENABLE_HEADLESS=ON
 cmake --build .
 ```
