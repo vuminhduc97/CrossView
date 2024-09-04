@@ -46,28 +46,29 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
    cd CrossView
 ```
 
+### Generate build files using CMake:
+Run cmake to generate the build files, then compile:
 
-
-
-### Create a build directory:
+### Build the project:
+Basic Build:
 ```sh
-
+Copy code
 mkdir build
 cd build
-
-```
-### Generate build files using CMake:
-```sh
-
 cmake ..
-
-```
-### Build the project:
-```sh
-
 cmake --build .
-
 ```
+Enable Headless Mode:
+
+To build with headless mode enabled, pass the option when running cmake:
+```sh
+Copy code
+cmake .. -DENABLE_HEADLESS=ON
+cmake --build .
+```
+Run:
+
+After building, you can run the generated executable. If you built with headless mode, the console window will be allocated as needed.
 
 
 ### Usage
