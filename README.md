@@ -23,7 +23,8 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 
 <img align="left" src="image/4.png" width="100px"/>
 
-
+```cpp
+```
 
 
 ## Supported Platforms
