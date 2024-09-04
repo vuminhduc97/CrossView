@@ -82,6 +82,13 @@ After building, you can run the generated executable. If you built with headless
 
 
 ### Usage
+##### Example Console Batch
+```batch
+@echo off
+CrossViewExample.exe --headless
+pause
+```
+
 ##### Example
 ```cpp
 #include "CrossView.h"
