@@ -60,6 +60,8 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
    git clone https://github.com/Autodidac/CrossView.git
    cd CrossView
 ```
+### Build using vs2022:
+Simply run the provided vs solution file `CrossView.sln` in the main folder
 
 ### Generate build files using CMake:
 Run cmake to generate the build files, then compile:
