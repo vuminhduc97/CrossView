@@ -103,6 +103,24 @@ int main() {
     return 0;
 }
 ```
+
+### Example Implementation (for Win32)
+```cpp
+#include "CrossViewWin32.h"  // Platform-specific include
+
+namespace CrossViewer {
+
+    std::unique_ptr<CrossView> CrossView::createCrossView() {
+#if defined(_WIN32)  // Platform check
+        return std::make_unique<CrossViewWin32>();
+#else
+        return std::make_unique<CrossViewNoop>();  // Fallback or other platform-specific class
+#endif
+    }
+
+}
+```
+
 ### API Reference
 
 ```cpp
