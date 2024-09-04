@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrossViewSource", "CrossVie
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrossView", "CrossView\CrossView.vcxproj", "{B6BDBC2A-B32F-4B34-8EDC-A5CDC88790D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrossViewExample", "CrossViewExample\WindowsDesktopExample\CrossViewExample.vcxproj", "{6403913F-50B4-4D51-AAA1-0769DF076CE5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrossViewExample", "CrossViewExample\WindowsDesktopApplication\CrossViewExample.vcxproj", "{6403913F-50B4-4D51-AAA1-0769DF076CE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
