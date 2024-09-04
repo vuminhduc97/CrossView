@@ -3,6 +3,9 @@
 # CrossView - Minimal Modern Cross-Platform Window Management System in C++20
 CrossView is a cross-platform library designed for creating and managing windows across multiple platforms. It abstracts platform-specific window management code into a unified interface, allowing you to create and manipulate windows in a platform-agnostic way. 
 
+<img align="left" src="image/gpt.png" width="30px"/>
+GPT-4
+
 ## Features
 
 - Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a No-op/Console mode.
