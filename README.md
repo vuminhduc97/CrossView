@@ -1,4 +1,4 @@
-<img align="left" src="image/1.png" width="100px"/>
+<img align="left" src="image/1.jpg" width="100px"/>
 
 # CrossView - Minimal Modern Cross-Platform Window Manager
 
