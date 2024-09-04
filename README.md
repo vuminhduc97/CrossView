@@ -24,7 +24,7 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 <img align="left" src="image/4.png" width="200px"/>
 
 ```cpp
-```
+
 
 
 ## Supported Platforms
@@ -38,6 +38,8 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 - **PlayStation 5** (PS5)
 - **Xbox**
 - **No-op** (Headless mode)
+```
+
 
 ## Installation
 
