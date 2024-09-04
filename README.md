@@ -1,3 +1,5 @@
+<img align="left" src="image/1.png" width="100px"/>
+
 # CrossView - Minimal Modern Cross-Platform Window Manager
 
 CrossView is a cross-platform library designed for creating and managing windows across multiple platforms. It abstracts platform-specific window management code into a unified interface, allowing you to create and manipulate windows in a platform-agnostic way. 
