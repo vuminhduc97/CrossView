@@ -167,6 +167,5 @@ Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 
 This project was developed with the support of OpenAI's GPT-4, which provided valuable assistance in generating code and design ideas. We appreciate the power and capabilities of GPT-4 in aiding the creation of this project.
 
-### Icon
+<img align="left" src="image/gpt4all.png" width="40px"/>GPT-4
 
-[IconFinder](https://www.iconfinder.com/icons/12345/sample_icon). 
