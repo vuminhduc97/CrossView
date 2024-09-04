@@ -115,7 +115,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 
 
-#MORE Details!
+
+
+
+# **MORE Details!**
 
 ### 1. Factory Class Design
 CrossViewFactory Class: The create() function is defined as a private member in the CrossViewFactory class. It seems this function is intended to be overridden by derived classes, such as platform-specific factories. However, you don't need the private create() function in CrossViewFactory. The factory method should be pure virtual and defined in derived classes.
