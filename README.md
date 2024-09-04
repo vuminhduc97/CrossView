@@ -164,8 +164,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 
 ## Acknowledgements
+<img align="left" src="image/gpt4all.png" width="40px"/>GPT-4
 
 This project was developed with the support of OpenAI's GPT-4, which provided valuable assistance in generating code and design ideas. We appreciate the power and capabilities of GPT-4 in aiding the creation of this project.
 
-<img align="left" src="image/gpt4all.png" width="40px"/>GPT-4
 
