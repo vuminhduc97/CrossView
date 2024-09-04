@@ -17,6 +17,8 @@ You’re using std::unique_ptr to manage the CrossView object, which is a safe a
 - Split-Screen and VR Features
 In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure that these features are appropriately implemented in the platform-specific classes where applicable.
 
+- Tested in Windows 10 & 11 With Console headless and WindowsDesktopApplication + headless mode.
+
 ## Supported Platforms
 
 - **Windows** (Win32)
