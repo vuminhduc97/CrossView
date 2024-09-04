@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{f2454d2b-5107-4450-af34-57901b15abd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ca37cd3c-1d2f-4c0a-b7ac-2527f35db28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Headless">
+      <UniqueIdentifier>{1a069afc-f133-4aaa-9cd0-5d73582151fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\X11">
+      <UniqueIdentifier>{dd6f5189-45df-4920-96b1-2de89476254a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Win32">
+      <UniqueIdentifier>{8162eb21-2f57-4291-8255-6450c5a4a0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\PS5">
+      <UniqueIdentifier>{4de0e53c-c722-487a-9372-737672408d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Android">
+      <UniqueIdentifier>{ab09254f-3c1e-40fb-9af5-3aa3f57f47fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Apple">
+      <UniqueIdentifier>{ec2d14fd-e41f-4a09-9abe-0fbeebe4b090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\WebAssembly">
+      <UniqueIdentifier>{951672ac-3fc4-446b-a1ea-238044f92a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Xbox">
+      <UniqueIdentifier>{8b32fd32-4943-4cce-a241-22593bd8c8de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossView.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewWin32.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewIOS.h">
+      <Filter>Platform\Apple</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewNoop.h">
+      <Filter>Platform\Headless</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewPS5.h">
+      <Filter>Platform\PS5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewXbox.h">
+      <Filter>Platform\Xbox</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewAndroid.h">
+      <Filter>Platform\Android</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewEmscripten.h">
+      <Filter>Platform\WebAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewX11.h">
+      <Filter>Platform\X11</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewFactory.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CrossViewMac.h">
+      <Filter>Platform\Apple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewWin32.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewIOS.cpp">
+      <Filter>Platform\Apple</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewNoop.cpp">
+      <Filter>Platform\Headless</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewPS5.cpp">
+      <Filter>Platform\PS5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewXbox.cpp">
+      <Filter>Platform\Xbox</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewAndroid.cpp">
+      <Filter>Platform\Android</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewEmscripten.cpp">
+      <Filter>Platform\WebAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewX11.cpp">
+      <Filter>Platform\X11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossView.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CrossViewMac.cpp">
+      <Filter>Platform\Apple</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
