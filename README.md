@@ -166,8 +166,8 @@ Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 ## Acknowledgements
 This project was developed with the support of OpenAI's GPT-4, which provided valuable assistance in generating code and design ideas. We appreciate the power and capabilities of GPT-4 in aiding the creation of this project.
 
-<img align="left" src="image/2.jpg" width="100px"/>
-
+<img align="left" src="image/2.jpg" width="80px"/>
+CrossView - A GPT4 Crossplatform Library For All!
 <img align="center" src="image/gpt4all.png" width="80px"/>
 
 
