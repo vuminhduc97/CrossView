@@ -172,5 +172,7 @@ This project was developed with the support of OpenAI's GPT-4, which provided va
 <img align="center" src="image/gpt4all.png" width="80px"/>
 CrossView - A GPT4 Crossplatform Library For All! Almost Entirely Built and Designed by AI - Even much of this readme and the CMakeLists.txt are written by GPT-4.. what a wonderful tool Thank You Again!
 
+Also Shout Out to ![CrossWindow](https://github.com/alaingalvan/CrossWindow) - Referenced Project and Alternate Library using C++11-17.
+
 
 
