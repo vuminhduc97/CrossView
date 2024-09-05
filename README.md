@@ -60,11 +60,23 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
    git clone https://github.com/Autodidac/CrossView.git
    cd CrossView
 ```
+
+
+
+
+
 ### Build using WIN32 (Windows 11 64bit) and vs2022:
 Simply run the provided vs solution file `CrossView.sln` in the main folder
 
+
+
+
 ### Generate build files using CMake:
 Run cmake to generate the build files, then compile:
+
+
+
+
 
 ### Build the project:
 Basic Build:
@@ -138,6 +150,7 @@ void shutdown()
 ```
 
 
+
 ### Platform-specific Implementations
 The platform-specific implementation files are organized into separate source files. Each implementation file contains the initialization, window creation, and shutdown code for a specific platform.
 
@@ -159,18 +172,32 @@ The platform-specific implementation files are organized into separate source fi
 
 -No-op mode: `CrossViewNoop.cpp` and `CrossViewNoop.h`
 
+
+
+
+
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 
 ### Contributing
 Contributions are welcome! Please see the CONTRIBUTING.md file for guidelines.
 
+
+
+
 ## Acknowledgements
 This project was developed with the support of OpenAI's GPT-4, which provided valuable assistance in generating code and design ideas. We appreciate the power and capabilities of GPT-4 in aiding the creation of this project.
+
+
 
 <img align="left" src="image/2.jpg" width="80px"/>
 <img align="center" src="image/gpt4all.png" width="80px"/>
 CrossView - A GPT4 Crossplatform Library For All! Almost Entirely Built and Designed by AI - Even much of this readme and the CMakeLists.txt are written by GPT-4.. what a wonderful tool Thank You Again!
+
+
 
 Also Shout Out to [CrossWindow](https://github.com/alaingalvan/CrossWindow) - Referenced Project and Alternate Library using C++11-17.
 
