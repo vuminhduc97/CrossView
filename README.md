@@ -13,7 +13,7 @@ CrossView is a cross-platform library designed for creating and managing windows
 - Platform-specific implementation details hidden behind a common interface.
 - Namespace 'CrossViewer' Prevents Global Code Leaks
 - C++20 and Factory Pattern Design
-- Platform-Specific Factories
+- Platform-Specific Factories - Oh yeah did I mention it has FACTORIES?! :D
 - Memory Management and Error Handling
 You’re using std::unique_ptr to manage the CrossView object, which is a safe and efficient choice.
 
