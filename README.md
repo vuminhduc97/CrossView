@@ -1,12 +1,16 @@
 <img align="left" src="image/1.jpg" width="100px"/>
 
+
 # CrossView - Minimal Modern Cross-Platform Window Management System in C++20
 CrossView is a cross-platform library designed for creating and managing windows across multiple platforms. It abstracts platform-specific window management code into a unified interface, allowing you to create and manipulate windows in a platform-agnostic way. 
+
 
 <img align="left" src="image/gpt.jpg" width="40px"/>GPT-4
 
 
+
 ## Features
+
 
 - Cross-platform support for Windows, macOS, Linux, Android, iOS, WebAssembly, PS5, Xbox, and a No-op/Console mode.
 - Window Creation and Management.
@@ -19,6 +23,8 @@ You’re using std::unique_ptr to manage the CrossView object, which is a safe a
 
 - Split-Screen and VR Features
 In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure that these features are appropriately implemented in the platform-specific classes where applicable.
+
+
 
 ## Tested
 
@@ -46,12 +52,17 @@ In CrossViewNoop, the setSplitScreen and setupVR methods are stubbed out. Ensure
 ```
 
 
+
 ## Installation
+
+
 
 ### Prerequisites
 
 - C++20 or later
 - CMake 3.10 or later
+
+
 
 ### Building
 
@@ -98,13 +109,18 @@ Run:
 After building, you can run the generated executable. If you built with headless mode, the console window will be allocated as needed.
 
 
+
+
 ### Usage
+
+
 ##### Example Console Batch
 ```batch
 @echo off
 CrossViewExample.exe --headless
 pause
 ```
+
 
 ##### Example
 ```cpp
@@ -120,6 +136,7 @@ int main() {
     return 0;
 }
 ```
+
 
 ### Example Implementation (for Win32)
 ```cpp
@@ -137,6 +154,7 @@ namespace CrossViewer {
 
 }
 ```
+
 
 ### API Reference
 
